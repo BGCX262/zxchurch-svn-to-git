@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="WebFootControl.ascx.cs" Inherits="ZXChurch.WebApplication.UC_Controls.WebFootControl" %>
+<div id="bottom"><div class="bt-top"></div><div class="bt-wrap"><div class="left"><!--<img alt="福音时报 - gospeltimes" src="http://www.gospeltimes.cn/images/logo-bt.gif">--></div><div class="right">京ICP备07014451号-1 京公网安备110102003886-4号 &copy; 福音时报版权所有 <a target="_blank" href="http://top.chinaz.com">网站排行榜</a></div><div class="clear"></div></div></div>

@@ -1,0 +1,124 @@
+/*字体*/
+.f_ws{ font-family:"微软雅黑";}
+.f_black{ font-family:"黑体";}
+.f22{ font-size:22px;}
+.f24{ font-size:24px;}
+.f30{ font-size:30px;}
+
+.c_red{ color:#ff0000;}
+.c_blue{ color:#064e95;}
+.c_white{ color:#ffffff;}
+a.c_white:link, a.c_white:visited, .c_white a:link, .c_white a:visited{ color:#ffffff; text-decoration:none;}
+a.c_white:hover, a.c_white:active, .c_white a:hover, .c_white a:active{ color:#ffffff; text-decoration:underline;}
+.c_fblue{ color:#054a87;}
+.c_fblue a:link, .c_fblue a:visited{ color:#054a87; text-decoration:none;}
+.c_fblue a:hover, .c_fblue a:active{ color:#054a87; text-decoration:underline;}
+.c_grey{ color:#333333;}
+.c_grey a:link, .c_grey a:visited{ color:#333333; text-decoration:none;}
+.c_grey a:hover, .c_grey a:active{ color:#ff0000; text-decoration:none;}
+.c_blue2{ color:#2165b6;}
+.c_blue2 a:link, .c_blue2 a:visited{ color:#2165b6; text-decoration:none;}
+.c_blue2 a:hover, .c_blue2 a:active{ color:#ff0000; text-decoration:underline;}
+
+/*边距*/
+.mt6{ margin-top:6px;}
+.mt40{ margin-top:40px;}
+.mr8{ margin-right:8px;}
+.mb8{ margin-bottom:8px;}
+.ml8{ margin-left:8px;}
+.pt6{ padding-top:6px;}
+.pb8{ padding-bottom:8px;}
+
+/*边框*/
+.bl1ff{ border-left:1px solid #ffffff;}
+.br1ce{ border-right:1px solid #cecece;}
+.br1ff{ border-right:1px solid #ffffff;}
+
+/*按钮*/
+.okBtn{ width:61px; height:23px; background:url(../images/btn.gif) -94px 0px no-repeat; color:#ffffff; line-height:23px; border:none; cursor:pointer;}
+.canelBtn{ width:61px; height:23px; background:url(../images/btn.gif) -165px 0px no-repeat; color:#01588d; line-height:23px; border:none; cursor:pointer;}
+
+/*
+* 页面头部
+* 2012-02-23
+*/
+.headBox{ height:72px; background:url(../images/repeat_x.gif) 0px -37px repeat-x;}
+.headLeft{ width:364px; height:72px; background:url(../images/head.gif) no-repeat; line-height:72px; padding-left:26px;}
+.headRight{ width:276px; height:72px; background:url(../images/head.gif) -114px -82px no-repeat;}
+.headRight a{ height:32px; background:url(../images/btn.gif) no-repeat; line-height:32px; padding-left:22px; display:inline-block;}
+.headRight a.userCenter{ background-position: -268px -48px;}
+.headRight a.modifyPsw{ background-position: -268px -71px;}
+.headRight a.exitSys{ background-position: -268px -98px;}
+.headCont{ height:20px; line-height:20px; color:#83abcb;}
+.headCont a{ background:url(../images/btn.gif) no-repeat; padding-left:22px; display:inline-block;}
+.headCont a.homePage{ background-position: -268px -130px;}
+.headCont a.backIocn{ background-position: -268px -156px;}
+.headCont a.forwardIcon{ background-position: -268px -182px;}
+.headCont a.flashIcon{ background-position: -268px -208px;}
+.headCont a.helpIcon{ background-position: -268px -231px;}
+
+.navBox{ height:29px; background:url(../images/repeat_x.gif) 0px -119px repeat-x; border-top:1px solid #a6d0e7; border-bottom:1px solid #9ec6dc;}
+.navBox ul li{ width:90px; line-height:29px; background:url(../images/head.gif) 0px -82px no-repeat;}
+.navBox ul li.nonce{ background:url(../images/head.gif) 0px -120px no-repeat;}
+.navBox p{ height:29px; line-height:29px;}
+.navBox p span{ margin-right:14px; display:inline-block;}
+.navBox p span.adminIcon{ width:12px; height:12px; background:url(../images/btn.gif) no-repeat; background-position: -273px -259px;}
+
+/*
+* 页面底部
+* 2012-02-23
+*/
+.footerBox{ height:28px; background:url(../images/repeat_x.gif) 0px -158px repeat-x; line-height:28px; border:1px solid #015bbc;}
+.footerBox strong{ margin-right:26px;}
+
+/*
+* 左侧栏
+* 2012-02-23
+*/
+.sideBar{ width:200px; min-height:720px; _height:720px; background:url(../images/welbg.gif) repeat-x;}
+.sideTit{ width:191px; height:31px; background:url(../images/btn.gif) 0px -37px no-repeat;}
+.sideCont{ width:189px; min-height:531px; background:url(../images/siderep_x.gif) left bottom repeat-x; border:1px solid #0175b0; padding-bottom:6px;}
+.menuBox{ width:177px;}
+.menuBox h3{ width:177px; height:25px; background:url(../images/collapsed.gif); background-position:0px 0px; line-height:25px; padding-bottom:2px;}
+.menuBox h3 a{ width:177px; height:25px; display:inline-block;}
+.navMenu{ width:163px; height:404px; padding:13px 0px 13px 14px;}
+.fixwidth{ vertical-align:top;}
+
+/*
+* 所在位置
+* 2012-02-23
+*/
+.postion{ height:29px; background:url(../images/head.gif) -374px -157px no-repeat; line-height:29px; padding-left:23px;}
+
+/*
+* 列表右侧标题栏
+* 2012-02-23
+*/
+.listTit{ height:31px; background:url(../images/repeat_x.gif) 0px -196px repeat-x;}
+.listTit_l{ width:13px; height:31px; background:url(../images/head.gif) 0px -158px no-repeat;}
+.listTit_c{ line-height:31px;}
+.listTit_c h4{ color:#494949; font-style:normal;}
+.listTit_c span{ height:31px; background:url(../images/ico.gif) 10px -59px no-repeat; display:inline-block;}
+.listTit_c a{ color:#1070ad; text-decoration:none; padding-left:35px;}
+.listTit_r{ width:13px; height:31px; background:url(../images/head.gif) -23px -158px no-repeat;}
+.listCon{ border:1px solid #cceae8; border-top:1px solid #d8ecf7;}
+
+/*
+* footer固定在底部
+* 2012-02-28
+*/
+html, body {height: 100%; }
+#wrap{ min-height:100%; _height:100%; background:url(../images/repeat-y.gif) 200px 103px repeat-y;}
+#main{ overflow:hidden; padding-bottom:30px;}
+#footer{ height:30px; margin-top:-30px; position:relative; clear:both;}
+
+
+
+
+
+
+
+
+
+
+

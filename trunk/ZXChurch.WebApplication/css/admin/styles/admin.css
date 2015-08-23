@@ -1,0 +1,149 @@
+/*
+* 登录页面
+* 2012-02-22
+*/
+#login{ background:url(../images/bg_x.gif) repeat-x;}
+.loginBox{ width:1001px; height:580px; background:url(../images/loginbg.gif) no-repeat;}
+.loginBox h1{ width:1001px; font-size:30px; color:#064e95; text-align:center; top:89px;}
+.loginBox_user{ width:493px; height:292px; background:url(../images/login.gif) no-repeat; left:252px; top:123px;}
+.userForm{ width:293px; height:165px; padding:0px 15px 0px 29px; right:6px; bottom:46px;}
+.userForm p{ font-size:12px; margin-top:13px; margin-top:13px\9;  *margin-top:11px;}
+.userForm label{ color:#ffffff; vertical-align:middle;}
+.userForm input{ line-height:18px; padding-left:4px; vertical-align:middle;}
+.userForm input.iptBox{ width:141px; height:21px; border:1px solid #9ecfe5;}
+.userForm input.codeBox{ width:64px; height:21px; border:1px solid #9ecfe5;}
+.userForm img{ width:65px; height:18px; border:1px solid #b7b7b7; vertical-align:middle;}
+.userForm a{ vertical-align:middle;}
+.userForm .loginBtn{ width:84px; height:27px; background:url(../images/btn.gif) no-repeat; margin-top:3px; margin-top:5px\9; *margin-top:5px; _margin-top:3px; margin-left:55px; border:none; cursor:pointer; position:relative; top:4px;}
+.userForm span{ margin-left:48px; margin-top:2px; display:block;}
+
+/*
+* 弹出层
+* 2012-02-23
+*/
+.popBox{ width:360px; margin:0px auto;}
+.popTit{ width:360px;}
+.popTit .popTit_l{ width:9px; height:27px; background:url(../images/btn.gif) -254px 0px no-repeat;}
+.popTit .popTit_c{ width:340px; height:27px; background:url(../images/repeat_x.gif) repeat-x; line-height:27px;}
+.closeBtn{ width:9px; background:url(../images/btn.gif) -275px -28px no-repeat; padding:3px; border:none; cursor:pointer;}
+.popTit .popTit_r{ width:11px; height:27px; background:url(../images/btn.gif) -273px 0px no-repeat;}
+
+.popCon{ width:282px; border:1px solid #0175b0; border-top:none; padding:23px 38px 9px 38px; *padding:20px 38px 9px 38px;}
+.popCon p{ height:26px;}
+.popCon span{ font-size:14px; color:#202020; padding-left:7px; *padding-left:5px;}
+
+/*
+* 欢迎界面
+* 2012-02-23
+*/
+.welcomBox{ background:url(../images/welbg.gif) repeat-x; padding:16px 14px;}/*此处有修改*/
+.welcomBox .welcomCont{ height:auto; border:1px solid #b2bcc6;}
+.welcomBox .welcomPading{ background:#ffffff url(../images/conbg.gif) top center no-repeat; padding:68px 71px;}
+.welcomeContent{ background:url(../images/ico.gif) 7px -95px no-repeat; padding-left:35px;}
+.welcomCont h4{ font-style:italic; color:#16528b;}
+.welcomCont p, .welcomCont ol{ font-size:12px; color:#333333; line-height:30px;}
+.welcomCont p em{ color:#ff0000;}
+
+/*
+* 列表页内容
+* 2012-02-23
+*/
+.welcomBox .listPadding{ background-color:#ffffff; padding:5px 10px;}
+.listCon_padding{ padding:10px 12px;}
+.tableBox{ color:#474747; border:1px solid #e7e7e7;}
+.tableBox td{ height:30px; border-right:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7;}
+.tableBox td.btnone{ border-bottom:none;}
+.findRow{ background:url(../images/repeat_x.gif) 0px -235px repeat-x; height:31px; line-height:30px;}
+.findRow_left input{ vertical-align:middle;}
+.findRow_left span{ color:#474747; vertical-align:middle;}
+.findRow_left .deleteSel{ width:116px; height:20px; vertical-align:middle;}
+.findRow_left .deleteBtn{ width:68px; height:24px; background:url(../images/btn.gif) 0px -113px no-repeat; color:#ffffff; text-align:center; border:none; cursor:pointer; vertical-align:middle;}
+
+.findRow_right .normalSel{ width:53px; height:20px; vertical-align:middle;}
+.findRow_right .searchTxt{ width:181px; height:20px; color:#cbcbcb; line-height:20px; border:1px solid #7d9cb9; vertical-align:middle; padding-left:3px; vertical-align:middle;}
+.findRow_right .findBtn{ width:61px; height:23px; line-height:23px; background:url(../images/btn.gif) -94px 0px no-repeat; color:#ffffff; border:none; cursor:pointer; vertical-align:middle;}
+.tableTit{ height:29px; background-color:#f1f1f1;}
+.tableBox a{  display:inline-block;}
+.modifyIco{ background:url(../images/btn.gif) -201px -35px no-repeat; padding-left:14px;}
+.configIco{ background:url(../images/btn.gif) -201px -54px no-repeat; padding-left:20px;}
+.deleteIco{ background:url(../images/btn.gif) -187px -76px no-repeat; padding-left:14px;}
+.tableOp{ height:28px; background:url(../images/repeat_x.gif) 0px -278px repeat-x; border:1px solid #cfcfcf; line-height:28px; margin:0px 1px;}
+.tableBottom_r{ height:28px; line-height:28px;}
+.tableBottom_r .totalPage{ margin-right:35px;}
+.tableBottom_r em{ padding:0px 5px;}
+.tableBottom_r .numPage{ padding:0px 4px;}
+.tableBottom_r .goPage{ width:21px; height:17px; border:1px solid #b6c0c2; margin:0px 5px;}
+.tableBottom_r .goBtn{ width:27px; height:18px; background:url(../images/btn.gif) -78px -113px no-repeat; margin-left:3px; border:none; cursor:pointer; vertical-align:middle;}
+.js_bgColor{ background-color:#cee9fc;}
+.data_item{ }
+.data_item:hover{background-color:#cee9fc;}
+
+/*
+* 内容页右侧
+* 2012-02-23
+*/
+.contentPadding{ padding:35px 0px;}
+.tableForm td{ height:35px;}
+.tableForm input{ line-height:20px;}
+.tableForm .numIpt{ width:98px; height:20px; border:1px solid #7f9db9;}
+.tableForm .nameIpt{ width:417px; height:20px; border:1px solid #7f9db9;}
+.tableForm .registSel{ width:137px; height:19px; padding-left:2px; line-height:19px;}
+.tableForm .valignTop{ vertical-align:top; padding-top:8px;}
+.tableForm .unloadCss a{ color:#2165b6;}
+.tableForm .radioBtn{ vertical-align:middle;}
+.tableForm span{ vertical-align:middle;}
+
+/*
+* 列表内容页新添加
+* 2012-03-06
+*/
+.tableBox td.listTit_sub{ height:27px; border-bottom:1px solid #c0c0c0;}
+
+.listTit_sub{ height:27px; background:url(../images/repeat_x.gif) 0px -317px repeat-x; line-height:27px; padding:0px 13px;}
+.listTit_sub h5{ color:#494949; font-style:normal;}
+.listTit_sub span{ background:url(../images/ico.gif) 10px -59px no-repeat; display:inline-block;}
+.listTit_sub a{ color:#1070ad; text-decoration:none; padding-left:35px;}
+
+h4.listTits{ height:32px; background:url(../images/repeat_x.gif) 0px -354px repeat-x; line-height:32px; font-style:normal;}
+.listTits a{ float:left; display:inline-block; width:131px; text-align:center; color:#333333; text-decoration:none;}
+.listTits a.js_on{ background:url(../images/btn.gif) 0px -146px no-repeat; color:#1371b1; font-weight:bold;}
+
+/*
+* 记帐凭证
+* 2012-03-09
+*/
+.accountBox{ width:780px; border:1px solid #6990b3;}
+.accountTit{ height:29px; line-height:29px; background-color:#4b98eb; padding:0px 20px;}
+.accountSubtit{ height:25px; line-height:25px; background-color:#eeeeee;}
+.accountBox h3{ width:230px; height:29px; color:#000000; border-bottom:1px solid #000000;}
+.accountBox h3 span{ width:230px; height:27px; border-bottom:1px solid #000000; display:block;}
+.accountBox .subTit{ padding:13px 23px;}
+.accountBox .subTit span{ float:left; display:inline-block; margin-right:22px;}
+.accountBox .subTit label{ vertical-align:middle;}
+.accountBox .subTit select{ vertical-align:middle;}
+.accountBox .subTit span.date{ width:112px; height:19px;}
+.accountBox .subTit span.voucher{ width:64px; height:19px;}
+.accountBox .subTit input{ width:60px; height:19px; color:#6d6d6d; line-height:19px; border:1px solid #afafaf; vertical-align:middle;}
+
+.accountTable{ width:752px; border:1px solid #646464;}
+.accountTable thead th{ height:19px; text-align:center; border-right:1px solid #a0a0a0; border-bottom:1px solid #a0a0a0; background-color:#f0f0f0;}
+.accountTable tbody td{ height:19px; border-right:1px solid #d3d3d3; border-bottom:1px solid #d3d3d3;}
+.accountTable tbody td.bd164{ border-bottom:1px solid #646464;;}
+.h22{ height:22px;}
+
+.save{ padding:10px 14px;}
+
+/*
+* 查看内容表格
+* 2012-04-10
+*/
+.viewTable table{ border:1px solid #8dc2eb;}
+.viewTable table th{ height:12px; border-right:1px solid #8dc2eb;  border-bottom:1px solid #8dc2eb; text-align:right; line-height:100%; vertical-align:top; padding:6px 0px;}
+.viewTable table td{ border-right:1px solid #8dc2eb;  border-bottom:1px solid #8dc2eb; padding-left:10px; color:#000000; line-height:24px;}
+.viewTable table td p{ color:#000000; line-height:24px;}
+
+
+
+
+
+

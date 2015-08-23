@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B07D7071-1DB9-42F2-9D75-1ED37CB24C37}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZXChurch.WebApplication</RootNamespace>
+    <AssemblyName>ZXChurch.WebApplication</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="churchuactivities.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\images\570.jpg" />
+    <Content Include="css\images\area_split.jpg" />
+    <Content Include="css\images\channel_split.gif" />
+    <Content Include="css\images\comment.gif" />
+    <Content Include="css\images\content_ico.gif" />
+    <Content Include="css\images\content_image_hd.gif" />
+    <Content Include="css\images\digg.gif" />
+    <Content Include="css\images\diggbig.gif" />
+    <Content Include="css\images\down-btn.gif" />
+    <Content Include="css\images\downCgy-r.gif" />
+    <Content Include="css\images\downCgy.gif" />
+    <Content Include="css\images\downindex-hd.gif" />
+    <Content Include="css\images\download_ico.gif" />
+    <Content Include="css\images\down_categories.gif" />
+    <Content Include="css\images\gallery.gif" />
+    <Content Include="css\images\hline.gif" />
+    <Content Include="css\images\hline_blue.gif" />
+    <Content Include="css\images\ico_rank.gif" />
+    <Content Include="css\images\image_play_arr.gif" />
+    <Content Include="css\images\image_video_rank.gif" />
+    <Content Include="css\images\leftnav.gif" />
+    <Content Include="css\images\list_ico.gif" />
+    <Content Include="css\images\loading.gif" />
+    <Content Include="css\images\mood.gif" />
+    <Content Include="css\images\next.cur" />
+    <Content Include="css\images\nvbg1.png" />
+    <Content Include="css\images\page-_head_bg.jpg" />
+    <Content Include="css\images\page_title.gif" />
+    <Content Include="css\images\pic_player.png" />
+    <Content Include="css\images\pt_player.jpg" />
+    <Content Include="css\images\rank_bg.gif" />
+    <Content Include="css\images\rank_round_bg.png" />
+    <Content Include="css\images\rank_split.gif" />
+    <Content Include="css\images\search.gif" />
+    <Content Include="css\images\shadow_right.gif" />
+    <Content Include="css\images\space.gif" />
+    <Content Include="css\images\split.gif" />
+    <Content Include="css\images\top2.gif" />
+    <Content Include="css\images\updown.gif" />
+    <Content Include="css\images\video.gif" />
+    <Content Include="css\images\vline.gif" />
+    <Content Include="css\images\vline_blue.gif" />
+    <Content Include="news\css\news.css" />
+    <Content Include="news\index.html" />
+    <Content Include="news\js\index.js" />
+    <Content Include="news\js\view.js" />
+    <Content Include="news\view.html" />
+    <Content Include="Scripts\about.js" />
+    <Content Include="Scripts\google-analytics.js" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Scripts\page-common-html.js" />
+    <Content Include="ueditor\dialogs\anchor\anchor.html" />
+    <Content Include="ueditor\dialogs\attachment\attachment.css" />
+    <Content Include="ueditor\dialogs\attachment\attachment.html" />
+    <Content Include="ueditor\dialogs\attachment\callbacks.js" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_chm.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_default.png" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_doc.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_exe.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_mp3.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_mv.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_pdf.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_ppt.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_psd.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_rar.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_txt.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeImages\icon_xls.gif" />
+    <Content Include="ueditor\dialogs\attachment\fileTypeMaps.js" />
+    <Content Include="ueditor\dialogs\background\background.css" />
+    <Content Include="ueditor\dialogs\background\background.html" />
+    <Content Include="ueditor\dialogs\background\background.js" />
+    <Content Include="ueditor\dialogs\emotion\emotion.css" />
+    <Content Include="ueditor\dialogs\emotion\emotion.html" />
+    <Content Include="ueditor\dialogs\emotion\emotion.js" />
+    <Content Include="ueditor\dialogs\emotion\images\0.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\bface.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\cface.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\fface.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\jxface2.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\neweditor-tab-bg.png" />
+    <Content Include="ueditor\dialogs\emotion\images\tface.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\wface.gif" />
+    <Content Include="ueditor\dialogs\emotion\images\yface.gif" />
+    <Content Include="ueditor\dialogs\gmap\gmap.html" />
+    <Content Include="ueditor\dialogs\help\help.css" />
+    <Content Include="ueditor\dialogs\help\help.html" />
+    <Content Include="ueditor\dialogs\help\help.js" />
+    <Content Include="ueditor\dialogs\highlightcode\highlightcode.html" />
+    <Content Include="ueditor\dialogs\image\image.css" />
+    <Content Include="ueditor\dialogs\image\image.html" />
+    <Content Include="ueditor\dialogs\image\image.js" />
+    <Content Include="ueditor\dialogs\image\images\center_focus.jpg" />
+    <Content Include="ueditor\dialogs\image\images\left_focus.jpg" />
+    <Content Include="ueditor\dialogs\image\images\none_focus.jpg" />
+    <Content Include="ueditor\dialogs\image\images\right_focus.jpg" />
+    <Content Include="ueditor\dialogs\image\imageUploader.swf" />
+    <Content Include="ueditor\dialogs\insertframe\insertframe.html" />
+    <Content Include="ueditor\dialogs\internal.js" />
+    <Content Include="ueditor\dialogs\link\link.html" />
+    <Content Include="ueditor\dialogs\map\map.html" />
+    <Content Include="ueditor\dialogs\music\music.css" />
+    <Content Include="ueditor\dialogs\music\music.html" />
+    <Content Include="ueditor\dialogs\music\music.js" />
+    <Content Include="ueditor\dialogs\scrawl\images\addimg.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\brush.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\delimg.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\delimgH.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\empty.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\emptyH.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\eraser.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\redo.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\redoH.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\scale.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\scaleH.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\size.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\undo.png" />
+    <Content Include="ueditor\dialogs\scrawl\images\undoH.png" />
+    <Content Include="ueditor\dialogs\scrawl\scrawl.css" />
+    <Content Include="ueditor\dialogs\scrawl\scrawl.html" />
+    <Content Include="ueditor\dialogs\scrawl\scrawl.js" />
+    <Content Include="ueditor\dialogs\searchreplace\searchreplace.html" />
+    <Content Include="ueditor\dialogs\searchreplace\searchreplace.js" />
+    <Content Include="ueditor\dialogs\snapscreen\snapscreen.html" />
+    <Content Include="ueditor\dialogs\spechars\spechars.html" />
+    <Content Include="ueditor\dialogs\spechars\spechars.js" />
+    <Content Include="ueditor\dialogs\table\dragicon.png" />
+    <Content Include="ueditor\dialogs\table\edittable.css" />
+    <Content Include="ueditor\dialogs\table\edittable.html" />
+    <Content Include="ueditor\dialogs\table\edittable.js" />
+    <Content Include="ueditor\dialogs\table\edittd.html" />
+    <Content Include="ueditor\dialogs\table\edittip.html" />
+    <Content Include="ueditor\dialogs\tangram.js" />
+    <Content Include="ueditor\dialogs\template\config.js" />
+    <Content Include="ueditor\dialogs\template\images\bg.gif" />
+    <Content Include="ueditor\dialogs\template\images\pre0.png" />
+    <Content Include="ueditor\dialogs\template\images\pre1.png" />
+    <Content Include="ueditor\dialogs\template\images\pre2.png" />
+    <Content Include="ueditor\dialogs\template\images\pre3.png" />
+    <Content Include="ueditor\dialogs\template\images\pre4.png" />
+    <Content Include="ueditor\dialogs\template\template.css" />
+    <Content Include="ueditor\dialogs\template\template.html" />
+    <Content Include="ueditor\dialogs\template\template.js" />
+    <Content Include="ueditor\dialogs\video\images\center_focus.jpg" />
+    <Content Include="ueditor\dialogs\video\images\left_focus.jpg" />
+    <Content Include="ueditor\dialogs\video\images\none_focus.jpg" />
+    <Content Include="ueditor\dialogs\video\images\right_focus.jpg" />
+    <Content Include="ueditor\dialogs\video\video.css" />
+    <Content Include="ueditor\dialogs\video\video.html" />
+    <Content Include="ueditor\dialogs\video\video.js" />
+    <Content Include="ueditor\dialogs\webapp\webapp.html" />
+    <Content Include="ueditor\dialogs\wordimage\fClipboard_ueditor.swf" />
+    <Content Include="ueditor\dialogs\wordimage\imageUploader.swf" />
+    <Content Include="ueditor\dialogs\wordimage\wordimage.html" />
+    <Content Include="ueditor\dialogs\wordimage\wordimage.js" />
+    <Content Include="ueditor\index.html" />
+    <Content Include="ueditor\third-party\codemirror\codemirror.css" />
+    <Content Include="ueditor\third-party\codemirror\codemirror.js" />
+    <Content Include="ueditor\third-party\snapscreen\UEditorSnapscreen.exe" />
+    <Content Include="ueditor\third-party\swfupload\fileprogress.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.cookies.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.proxy.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.queue.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.speed.js" />
+    <Content Include="ueditor\third-party\swfupload\swfupload.swf" />
+    <Content Include="ueditor\third-party\swfupload\swfupload_fp9.swf" />
+    <Content Include="ueditor\third-party\SyntaxHighlighter\shCore.js" />
+    <Content Include="ueditor\third-party\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="Weekly\admin\admin_saveweekly.aspx" />
+    <Content Include="Scripts\base-common.js" />
+    <Content Include="Weekly\js\index.js" />
+    <Content Include="Weekly\js\view.js" />
+    <Content Include="Weekly\admin\templates\view.html" />
+    <Content Include="Weekly\view.html" />
+    <Content Include="worshipprogram.html" />
+    <Content Include="zxAdmin\checkcode.aspx" />
+    <Content Include="zxAdmin\default.aspx" />
+    <Content Include="zxAdmin\footer.aspx" />
+    <Content Include="zxAdmin\header.aspx" />
+    <Content Include="zxAdmin\leftusermenu.aspx" />
+    <Content Include="zxAdmin\logout.aspx" />
+    <Content Include="zxAdmin\news\admin_news_category.aspx" />
+    <Content Include="zxAdmin\news\admin_news_list.aspx" />
+    <Content Include="zxAdmin\news\admin_news_save.aspx" />
+    <Content Include="zxAdmin\news\admin_news_category_save.aspx" />
+    <Content Include="zxAdmin\news\templates\view.html" />
+    <Content Include="zxAdmin\reloadData.aspx" />
+    <Content Include="zxAdmin\script\admin_news_list.js" />
+    <Content Include="zxAdmin\user\admin_user_competence.aspx" />
+    <Content Include="zxAdmin\user\admin_user_competence_select.aspx" />
+    <Content Include="zxAdmin\user\admin_user_list.aspx" />
+    <Content Include="zxAdmin\user\admin_user_resetpwd.aspx" />
+    <Content Include="zxAdmin\user\admin_user_save.aspx" />
+    <Content Include="css\admin\images\bg_x.gif" />
+    <Content Include="css\admin\images\blank.png" />
+    <Content Include="css\admin\images\btn.gif" />
+    <Content Include="css\admin\images\code.jpg" />
+    <Content Include="css\admin\images\collapsed.gif" />
+    <Content Include="css\admin\images\conbg.gif" />
+    <Content Include="css\admin\images\expanded.gif" />
+    <Content Include="css\admin\images\file.png" />
+    <Content Include="css\admin\images\foldericon.png" />
+    <Content Include="css\admin\images\head.gif" />
+    <Content Include="css\admin\images\I.png" />
+    <Content Include="css\admin\images\ico.gif" />
+    <Content Include="css\admin\images\L.png" />
+    <Content Include="css\admin\images\Lminus.png" />
+    <Content Include="css\admin\images\login.gif" />
+    <Content Include="css\admin\images\loginbg.gif" />
+    <Content Include="css\admin\images\Lplus.png" />
+    <Content Include="css\admin\images\openfoldericon.png" />
+    <Content Include="css\admin\images\repeat-y.gif" />
+    <Content Include="css\admin\images\repeat_x.gif" />
+    <Content Include="css\admin\images\shadow.gif" />
+    <Content Include="css\admin\images\siderep_x.gif" />
+    <Content Include="css\admin\images\T.png" />
+    <Content Include="css\admin\images\Tminus.png" />
+    <Content Include="css\admin\images\Tplus.png" />
+    <Content Include="css\admin\images\welbg.gif" />
+    <Content Include="css\admin\images\xp\file.png" />
+    <Content Include="css\admin\images\xp\folder.png" />
+    <Content Include="css\admin\images\xp\I.png" />
+    <Content Include="css\admin\images\xp\L.png" />
+    <Content Include="css\admin\images\xp\Lminus.png" />
+    <Content Include="css\admin\images\xp\Lplus.png" />
+    <Content Include="css\admin\images\xp\openfolder.png" />
+    <Content Include="css\admin\images\xp\T.png" />
+    <Content Include="css\admin\images\xp\Tminus.png" />
+    <Content Include="css\admin\images\xp\Tplus.png" />
+    <Content Include="zxAdmin\leftmenu.aspx" />
+    <Content Include="zxAdmin\login.aspx" />
+    <Content Include="zxAdmin\script\emptytree.xml" />
+    <Content Include="zxAdmin\script\iframe.js" />
+    <Content Include="zxAdmin\script\menu.js" />
+    <Content Include="zxAdmin\script\showtab.js" />
+    <Content Include="zxAdmin\script\tree.xml" />
+    <Content Include="zxAdmin\script\tree1.xml" />
+    <Content Include="zxAdmin\script\tree2.xml" />
+    <Content Include="zxAdmin\script\treeguzhang.xml" />
+    <Content Include="zxAdmin\script\treekongzhi.xml" />
+    <Content Include="zxAdmin\script\treeLARGE.xml" />
+    <Content Include="zxAdmin\script\treeshishi.xml" />
+    <Content Include="zxAdmin\script\treeshuxu.xml" />
+    <Content Include="zxAdmin\script\treexitong.xml" />
+    <Content Include="zxAdmin\script\xloadtree.js" />
+    <Content Include="zxAdmin\script\xmlextras.js" />
+    <Content Include="zxAdmin\script\xtree.js" />
+    <Content Include="css\admin\styles\admin.css" />
+    <Content Include="css\admin\styles\base.css" />
+    <Content Include="css\admin\styles\common.css" />
+    <Content Include="css\admin\styles\xtree.css" />
+    <Content Include="zxAdmin\user\js\admin_user_competence.js" />
+    <Content Include="zxAdmin\web\admin_index_manage.aspx" />
+    <Content Include="zxAdmin\web\templates\index.html" />
+    <Content Include="zxAdmin\welcome.aspx" />
+    <Content Include="css\common.css" />
+    <Content Include="css\images\bg-hover-nav.gif" />
+    <Content Include="css\images\bg-line-nav.gif" />
+    <Content Include="css\images\bg.gif" />
+    <Content Include="css\images\logo.gif" />
+    <Content Include="css\images\logo.png" />
+    <Content Include="css\images\nav-bg.gif" />
+    <Content Include="css\images\prev.cur" />
+    <Content Include="css\images\top-01.jpg" />
+    <Content Include="css\web-index.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="index.html" />
+    <Content Include="Weekly\admin\Admin.aspx" />
+    <Content Include="Weekly\css\images\repeatX.gif" />
+    <Content Include="Weekly\css\monthlybulletin.css" />
+    <Content Include="Weekly\index.html" />
+    <Content Include="Weekly\周报目录.txt" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jQueryDialog\dialog.css" />
+    <Content Include="Scripts\jQueryDialog\dialog.js" />
+    <Content Include="Scripts\jQueryDialog\html5.js" />
+    <Content Include="Scripts\JScript1.js" />
+    <Content Include="Scripts\utils.js" />
+    <Content Include="UC_Controls\WebFootControl.ascx" />
+    <Content Include="UC_Controls\WebHeadControl.ascx" />
+    <Content Include="ueditor\editor_all.js" />
+    <Content Include="ueditor\editor_all_min.js" />
+    <Content Include="ueditor\editor_config.js" />
+    <Content Include="ueditor\lang\en\en.js" />
+    <Content Include="ueditor\lang\en\images\addimage.png" />
+    <Content Include="ueditor\lang\en\images\alldeletebtnhoverskin.png" />
+    <Content Include="ueditor\lang\en\images\alldeletebtnupskin.png" />
+    <Content Include="ueditor\lang\en\images\background.png" />
+    <Content Include="ueditor\lang\en\images\button.png" />
+    <Content Include="ueditor\lang\en\images\copy.png" />
+    <Content Include="ueditor\lang\en\images\deletedisable.png" />
+    <Content Include="ueditor\lang\en\images\deleteenable.png" />
+    <Content Include="ueditor\lang\en\images\imglabel.png" />
+    <Content Include="ueditor\lang\en\images\listbackground.png" />
+    <Content Include="ueditor\lang\en\images\localimage.png" />
+    <Content Include="ueditor\lang\en\images\music.png" />
+    <Content Include="ueditor\lang\en\images\rotateleftdisable.png" />
+    <Content Include="ueditor\lang\en\images\rotateleftenable.png" />
+    <Content Include="ueditor\lang\en\images\rotaterightdisable.png" />
+    <Content Include="ueditor\lang\en\images\rotaterightenable.png" />
+    <Content Include="ueditor\lang\en\images\upload.png" />
+    <Content Include="ueditor\lang\zh-cn\images\copy.png" />
+    <Content Include="ueditor\lang\zh-cn\images\imglabel.png" />
+    <Content Include="ueditor\lang\zh-cn\images\localimage.png" />
+    <Content Include="ueditor\lang\zh-cn\images\music.png" />
+    <Content Include="ueditor\lang\zh-cn\images\upload.png" />
+    <Content Include="ueditor\lang\zh-cn\zh-cn.js" />
+    <Content Include="ueditor\net\fileUp.ashx" />
+    <Content Include="ueditor\net\getContent.ashx" />
+    <Content Include="ueditor\net\getMovie.ashx" />
+    <Content Include="ueditor\net\getRemoteImage.ashx" />
+    <Content Include="ueditor\net\imageManager.ashx" />
+    <Content Include="ueditor\net\imageUp.ashx" />
+    <Content Include="ueditor\net\scrawlUp.ashx" />
+    <Content Include="ueditor\net\Web.config" />
+    <Content Include="ueditor\themes\default\css\ueditor.css" />
+    <Content Include="ueditor\themes\default\dialogbase.css" />
+    <Content Include="ueditor\themes\default\images\anchor.gif" />
+    <Content Include="ueditor\themes\default\images\arrow.png" />
+    <Content Include="ueditor\themes\default\images\button-bg.gif" />
+    <Content Include="ueditor\themes\default\images\cancelbutton.gif" />
+    <Content Include="ueditor\themes\default\images\cursor_h.gif" />
+    <Content Include="ueditor\themes\default\images\cursor_h.png" />
+    <Content Include="ueditor\themes\default\images\cursor_v.gif" />
+    <Content Include="ueditor\themes\default\images\cursor_v.png" />
+    <Content Include="ueditor\themes\default\images\dialog-title-bg.png" />
+    <Content Include="ueditor\themes\default\images\filescan.png" />
+    <Content Include="ueditor\themes\default\images\highlighted.gif" />
+    <Content Include="ueditor\themes\default\images\icons-all.gif" />
+    <Content Include="ueditor\themes\default\images\icons.gif" />
+    <Content Include="ueditor\themes\default\images\icons.png" />
+    <Content Include="ueditor\themes\default\images\lock.gif" />
+    <Content Include="ueditor\themes\default\images\neweditor-tab-bg.png" />
+    <Content Include="ueditor\themes\default\images\pagebreak.gif" />
+    <Content Include="ueditor\themes\default\images\scale.png" />
+    <Content Include="ueditor\themes\default\images\spacer.gif" />
+    <Content Include="ueditor\themes\default\images\sparator_v.png" />
+    <Content Include="ueditor\themes\default\images\toolbar_bg.png" />
+    <Content Include="ueditor\themes\default\images\unhighlighted.gif" />
+    <Content Include="ueditor\themes\default\images\upload.png" />
+    <Content Include="ueditor\themes\default\images\videologo.gif" />
+    <Content Include="ueditor\themes\default\images\word.gif" />
+    <Content Include="ueditor\themes\default\images\wordpaste.png" />
+    <Content Include="ueditor\themes\iframe.css" />
+    <Content Include="ueditor\uparse.js" />
+    <Content Include="ueditor\百度编辑器.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="zxAdmin\welcome.aspx.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zxAdmin\welcome.aspx.designer.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ExecptionLoger.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Controls\WebFootControl.ascx.cs">
+      <DependentUpon>WebFootControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC_Controls\WebFootControl.ascx.designer.cs">
+      <DependentUpon>WebFootControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Controls\WebHeadControl.ascx.cs">
+      <DependentUpon>WebHeadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC_Controls\WebHeadControl.ascx.designer.cs">
+      <DependentUpon>WebHeadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ueditor\net\Uploader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Weekly\WebHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZXChurch.Admin\ZXChurch.Admin.csproj">
+      <Project>{856B15C2-9336-43F2-BC5D-DE07553FBA83}</Project>
+      <Name>ZXChurch.Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZXChurch.WebLog\ZXChurch.WebLog.csproj">
+      <Project>{71E07569-D3C2-428E-9126-9D5EEE2489D7}</Project>
+      <Name>ZXChurch.WebLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ZXChurch.Weekly\ZXChurch.Weekly.csproj">
+      <Project>{D6174E96-39E3-48DF-9280-A60797184AB4}</Project>
+      <Name>ZXChurch.Weekly</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Weekly\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="zxcommon\AdminHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminDataSet.xsc">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AdminDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdminDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdminDataSet.xss">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="css\admin\images\Thumbs.db" />
+    <None Include="css\admin\images\xp\Thumbs.db" />
+    <Content Include="log\Web.config" />
+    <Content Include="log\LogHandler.ashx" />
+    <Content Include="zxcommon\NewsHandler.ashx" />
+    <Content Include="zxAdmin\news\WebHandler.ashx" />
+    <Content Include="zxAdmin\Web.config" />
+    <Content Include="zxcommon\Web.config" />
+    <Content Include="Weekly\admin\WebHandler.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2821</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

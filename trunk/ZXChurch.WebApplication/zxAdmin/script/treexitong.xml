@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<tree>
+	<tree text="日志维护">
+		<tree text="日志维护1" />
+		<tree text="日志维护2" />
+	</tree>
+	<tree text="日终执行情况">
+		<tree text="日终执行情况1" />
+		<tree text="日终执行情况2" />
+	</tree>
+	<tree text="参数设置">
+		<tree text="系统管理1" />
+		<tree text="系统管理2" />
+	</tree>
+	<tree text="系统后台管理">
+		<tree text="系统后台管理1" />
+		<tree text="系统后台管理2" />
+	</tree>
+	<tree text="故障信息导出">
+		<tree text="故障信息导出1" />
+		<tree text="故障信息导出2" />
+	</tree>
+</tree>

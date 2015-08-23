@@ -1,0 +1,9 @@
+﻿body {
+}
+.page {margin: 0 auto;padding: 20px 0;width: 540px; text-align:center;}
+.page b {background: none repeat scroll 0 0 #FFEEEE;border: 1px solid #FF5500;color: #FF5500; display: inline-block; height: 24px; margin: 0 3px;padding: 0 10px; }
+.page a {background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; color: #0063DC;  display: inline-block;  height: 24px; margin: 0 3px;  padding: 0 10px; }
+.fr {display: inline;  float: right; }
+.f14 {font-size: 14px; }
+.mb10 {margin-bottom: 10px;}
+.lh200{line-height:200%}

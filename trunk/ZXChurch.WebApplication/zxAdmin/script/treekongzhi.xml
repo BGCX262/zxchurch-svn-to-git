@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<tree>
+	<tree text="实时远程控制">
+		<tree text="实时远程控制1" />
+		<tree text="实时远程控制2" />
+	</tree>
+	<tree text="预约命令控制">
+		<tree text="预约命令控制1" />
+		<tree text="预约命令控制2" />
+	</tree>
+	<tree text="预约广告画面">
+		<tree text="预约广告画面1" />
+		<tree text="预约广告画面2" />
+	</tree>
+	<tree text="预约版本下载">
+		<tree text="预约版本下载1" />
+		<tree text="预约版本下载2" />
+	</tree>
+	<tree text="预约提取远程">
+		<tree text="预约提取远程1" />
+		<tree text="预约提取远程2" />
+	</tree>
+	<tree text="预约批次查询">
+		<tree text="预约批次查询1" />
+		<tree text="预约批次查询2" />
+	</tree>
+</tree>

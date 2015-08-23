@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<tree>
+	<tree text="故障管理">
+		<tree text="故障管理1" />
+		<tree text="故障管理2" />
+	</tree>
+	<tree text="故障管理">
+		<tree text="故障管理1" />
+		<tree text="故障管理2" />
+	</tree>
+	<tree text="故障管理">
+		<tree text="故障管理1" />
+		<tree text="故障管理2" />
+	</tree>
+	<tree text="故障管理">
+		<tree text="故障管理1" />
+		<tree text="故障管理2" />
+	</tree>
+	<tree text="故障管理">
+		<tree text="故障管理1" />
+		<tree text="故障管理2" />
+	</tree>
+</tree>
